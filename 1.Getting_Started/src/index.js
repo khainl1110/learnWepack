@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import _ from "lodash";
 
 document.getElementById("button1").addEventListener("click", function() {
     const el = document.getElementById("header");
@@ -11,4 +11,5 @@ document.getElementById("button1").addEventListener("click", function() {
         tempEl.innerHTML = item;
         ul.appendChild(tempEl);
     })
+
 })
